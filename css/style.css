@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  color:gray;
+}
+
+h2{
+  font-size: 3rem;
+  color:black;
+}
+
+.container{
+  width: 90%;
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+/* HEADER */
+
+.jumbotron{
+  background-image:url('../img/sfondo2.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1{
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 350px;
+}
+
+.menu{
+  border-bottom: 2px solid black;
+  padding: 20px 0;
+}
+
+.logo{
+  float: left;
+}
+
+.logo span{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e0bc4e;
+}
+
+.menu nav{
+  float: left;
+  padding-left: 100px;
+}
+.menu nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.menu nav ul li a{
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.menu nav ul li a:hover{
+  color: rgb(107, 107, 107);
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+main .create{
+  background-color: rgb(238, 238, 238);
+  padding-top: 150px;
+}
+
+main .col{
+  float:left;
+  width: 50%;
+}
+
+main .col p{
+  padding-top:30px;
+}
+
+main .col:first-child{
+  padding-right: 40px;
+}
